@@ -66,3 +66,4 @@ sum(fdata$dur) ## original data
 sum(finaldata$dur) ## new data 
 
 ## now you can coxph to your heart's content ##
+## (but don't forget to cluster by xid, e.g. coxph(Surv(dur,ipv)~numchild+marry+uu16,cluster=xid)) 
