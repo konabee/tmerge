@@ -31,7 +31,7 @@ head(fdata)
 ## she is also married at the time of union (married at 0) so she will not have additional rows after tmerge
 
 ## person 105 experienced ipv 55 months after union;
-## she was not married at the time of union formtion (our baseline time is union, and she got married 12 months after;
+## she was not married at the time of union formtion (our baseline time is union, and she got married 12 months after);
 ## she then had child1 at month 25, child2, 40, child3, 52 months so we need to split up her risk time 
 ## she will have additional rows after tmerge
 
