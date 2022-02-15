@@ -35,7 +35,7 @@ head(fdata)
 ## she then had child1 at month 25, child2, 40, child3, 52 months so we need to split up her risk time 
 ## she will have additional rows after tmerge
 
-## be sure to recode NA or events that never happened to 99999; function will not working with NA 
+## be sure to recode NA or events that never happened to 99999; function will not work with NA 
 
 data1<-tmerge(fdata,fdata, ## merge data to itself 
               id=xid, ## here declare the id variable
