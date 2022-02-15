@@ -11,7 +11,7 @@ library(tidyverse)
 ## suppose number of children and cohab/married is time-varying, whether they formed union under age 16 (uu16) does not 
 ## change with time (time-invariant) ##  
 
-xid<-c(101,102,103,104,105,106)
+xid<-c(101:106)
 dur<-c(36,42,78,60,55,50)
 ipv<-c(1,0,0,0,1,0)
 child1<-c(40,12,99999,36,25,14)
