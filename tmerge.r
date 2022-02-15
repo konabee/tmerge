@@ -1,13 +1,14 @@
-#### Time varying covariates in R: Use tdc in tmerge() ##
+## Time varying covariates in R: Use tdc in tmerge() ##
+## by Chia Liu ## 
 
 library(survival)
 library(tidyverse)
 
-#### fake data ## 
+## fake data ## 
 
-#### dur(ation) to experiencing intimate partner violence "ipv" (1 or 0) in months for id 101-106
+## dur(ation) to experiencing intimate partner violence "ipv" (1 or 0) in months for id 101-106
 
-#### suppose number of children and cohab/married is time-varying, whether they formed union under age 16 (uu16) does not 
+## suppose number of children and cohab/married is time-varying, whether they formed union under age 16 (uu16) does not 
 ## change with time (time-invariant) ##  
 
 xid<-c(101,102,103,104,105,106)
@@ -58,10 +59,10 @@ finaldata<-data1 %>%
   select(-c('child1','child2','child3','married','c1','c2','c3'))
 
 ## check the duration of your original data (fdata) with the new data (finaldata)
-## if the duration doesn't match then something went wrong
+## if the durations don't match up then something went wrong
 ## we're only SLICING up time by what's happening in people's lives (birth of child, marriage), we're not GROWING time ##
 
 sum(fdata$dur) ## original data
 sum(finaldata$dur) ## new data 
 
-## now you can coxph to your heart's content
+## now you can coxph to your heart's content ##
