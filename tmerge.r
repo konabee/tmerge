@@ -28,7 +28,7 @@ head(fdata)
 
 ## person 101 experienced ipv 36 months after her union (ipv==1); 
 ## she then had a first and second child at 40 and 52 months after her union, which we do not care about because the event happened already;
-## she is also married at the time of union (married at 0) so she will not have additional rows after tmerge
+## she was also married at the time of union (married at 0) so she will not have additional rows after tmerge
 
 ## person 105 experienced ipv 55 months after union;
 ## she was not married at the time of union formtion (our baseline time is union, and she got married 12 months after);
