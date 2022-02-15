@@ -47,7 +47,7 @@ data1<-tmerge(fdata,fdata, ## merge data to itself
 
 View(data1)
 
-## now we transformed duration to start and stop time (tstart/tstop) by tdc of interest
+## now we've transformed duration to start and stop time (tstart/tstop) by tdc of interest
 ## uu16 should not change since it is time-invariant
 ## your old duration is now obsolete (and incorrect); need to create a new duration which is tstop-tstart
 ## tidy up the number of child variable by creating a new var "numchild" which is c1+c2+c3 
