@@ -6,7 +6,7 @@ library(tidyverse)
 
 ## fake data ## 
 
-## dur(ation) to experiencing intimate partner violence "ipv" (1 or 0) in months for id 101-106
+## dur(ation) to experiencing intimate partner violence "ipv" (1 or 0) in months after union formation for id 101-106
 
 ## suppose number of children and cohab/married is time-varying, whether they formed union under age 16 (uu16) does not 
 ## change with time (time-invariant) ##  
