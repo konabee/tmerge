@@ -17,7 +17,7 @@ ipv<-c(1,0,0,0,1,0)
 child1<-c(40,12,99999,36,25,14)
 child2<-c(52,99999,99999,72,40,28)
 child3<-c(99999,99999,99999,90,52,99999)
-married<-c(0,0,14,0,12,0)
+married<-c(99999,99999,14,99999,12,99999)
 uu16<-c(1,0,0,0,0,1)
 
 fdata<-data.frame(xid,dur,ipv,child1,child2,child3,married,uu16)
